@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+      <img src="https://content.codecademy.com/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
+    </section>
+
+    <section id="main">
+      <h1>Complete the Form -<br> Complete the Story!</h1>
+      <hr>
+    <form action="/story.html" method="get">
+    <label for="animal-1">Animal:</label>
+    <input id="animal-1" name="animal-1" type="text" required>
+      <br>
+      <lable id="animal-2">Another Animal:</lable>
+      <input id="animal-2" name="animal-2" type="text" required>
+      <br>
+      <lable id="animal-3">One More Animal:</lable>
+      <input id="animal-3" name="animal-3" type="text" required>
+      
+      <br>
+       <lable for="adj-1>Adjective (past tense):</lable>
+      <input id="adj-1" name="adj-1" type="text" required>
+      <br>
+
+<lable for="verb-1">Verb (ends in -ing):</lable>
+<input id="verb-1" name="verb-1" type="text" required>
+
+   <br>
+   <lable for"num-1">Number:<lable>
+     <input id="num-1" name="num-1" type=number required>
+   <br>
+   <span>
+      <lable for="yes">Yes</label>
+      <input id="yes" name="answer"
+      type="radio" value="yes">
+
+      <lable for "no">No</lable>
+      <input id="no" name="answer"
+      type="redio" value="no">
+      <br>
+
+      <lable for="speed">Relative speed (ends in -er):</lable>
+      <select id="speed" name="speed" required>
+    <datalist>
+        <option value="faster">Faster</option>
+        <option value="slower">slower</option>
+    </datalist>
+</select>
+<br>
+<lable for=quote>Motivational Quote:</lable>
+<input id="quote" name="quote" type="text" required list="quoute-choices">
+<datalist id="quoute-choices">
+  <option value="winner gets ice cream!"></option>
+</datalist>
+<br>
+<lable for+"message">Meaningful Message:</lable><br>
+<textarea id="message" name="message" required rows="8" cols="40"></textarea>
+<br>
+
+<input type="submit" value="Form My Story">
+</form>
+      
+    </section>
+  </body>
+</html>
