@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+h2{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold; 
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0,10%;
+}
+   
+.navbar p{
+    display:inline-block;
+    padding: 10px 10px;
+}
+
+a{
+ color:black
+}
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+    
+.mission{
+    display: flex;
+    height: 300px;
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+    padding-top: 35px;
+}
+
+
+.mission .content{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    
+}
+
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.main h4{
+    font-size: 150%;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    vertical-align: middle;
+    
+}
+
+.photo img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+    vertical-align: middle;
+    
+}
+
+.photo{
+    width: 50%;
+}
+
+
+.team {
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.teammate img {
+    padding: 10px;
+    flex-basis: 280px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.teammate{
+    color: white;
+    vertical-align: middle;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 10px;
+}
+
+.contact, .copyright {
+    padding-top: 20px;
+}
